@@ -57,7 +57,7 @@ const NavBar = () => {
               </li>
 
               <a
-                href="https://t.me/+o6WzAnyPC3lkOTk0"
+                href="https://t.me/+o6WzAnyPC3lkOTk0ib"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-500 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-600 transition"
@@ -65,7 +65,7 @@ const NavBar = () => {
                 Join Us on Telegram
               </a>
               <a
-                href="https://x.com/tws_on_sol?s=21"
+                href="https://x.com/tws_on_sol?s=21990"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-400 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition"

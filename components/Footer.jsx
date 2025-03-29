@@ -23,7 +23,7 @@ const Footer = () => (
       </div>
       <div className="flex flex-col items-center justify-center sm:flex-row gap-4 space-y-4 sm:space-y-0">
         <a
-          href="https://t.me/+o6WzAnyPC3lkOTk0"
+          href="https://t.me/+o6WzAnyPC3lkOTkih0"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-600 transition"
@@ -31,7 +31,7 @@ const Footer = () => (
           Join Us on Telegram
         </a>
         <a
-          href="https://x.com/tws_on_sol?s=21"
+          href="https://x.com/tws_on_soujolkjl?s=21"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-400 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition"
@@ -43,18 +43,19 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
-            Meeka The Husky
-          </h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2025 Meeka The Husky. All rights reserved.
-          </p>
+       <div className="flex items-center justify-between flex-wrap gap-4">
+  <h4 className="font-extrabold text-[24px] text-white">
+    GTA 6 Token
+  </h4>
+  <p className="font-normal text-[14px] text-white opacity-50">
+    Copyright © 2025 GTA 6 Token. All rights reserved.
+  </p>
 
-          <div className="flex gap-4">
-            {/* Add social icons or links here if needed */}
-          </div>
-        </div>
+  <div className="flex gap-4">
+    {/* Add social icons or links here if needed */}
+  </div>
+</div>
+
       </div>
     </div>
   </motion.footer>
