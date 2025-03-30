@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import VideoPlayer from './VideoPlayer';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -28,6 +29,8 @@ const About = () => (
         the high-stakes, action-packed world of gaming, GTA 6 isn't just a
         token—it's a revolution in gaming rewards, NFTs, and digital ownership.
         <br />
+        <br />
+        <VideoPlayer />
         <br />
         <br />
         With a{" "}

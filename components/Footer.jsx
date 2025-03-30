@@ -23,7 +23,7 @@ const Footer = () => (
       </div>
       <div className="flex flex-col items-center justify-center sm:flex-row gap-4 space-y-4 sm:space-y-0">
         <a
-          href="https://t.me/+o6WzAnyPC3lkOTk0"
+          href="https://t.me/GTAvionBsc"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-600 transition"
@@ -31,7 +31,7 @@ const Footer = () => (
           Join Us on Telegram
         </a>
         <a
-          href="https://x.com/tws_on_sol?s=21"
+          href="https://x.com/bscgta?s=21"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-400 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition"
