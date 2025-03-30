@@ -16,19 +16,19 @@ const NavBar = () => {
     setMenuOpen(!menuOpen);
   };
 
-   const [copied, setCopied] = useState(false);
-   const address = "0x9eBe276106Ffb2a3b47977bFDcCBeD9484CAF93d";
+  const [copied, setCopied] = useState(false);
+  const address = "0x9eBe276106Ffb2a3b47977bFDcCBeD9484CAF93d";
 
-   const handleCopy = () => {
-     navigator.clipboard
-       .writeText(address)
-       .then(() => {
-         setCopied(true);
-         setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
-       })
-       .catch((err) => console.error("Failed to copy:", err));
-   };
-  
+  const handleCopy = () => {
+    navigator.clipboard
+      .writeText(address)
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
+      })
+      .catch((err) => console.error("Failed to copy:", err));
+  };
+
   return (
     <motion.nav
       variants={navVariants}
@@ -46,7 +46,7 @@ const NavBar = () => {
           className="w-[44px] h-[44px] rounded-full object-cover"
         />
 
-        <h2 className="font-extrabold test-[24px] text-white leading-[30px]">
+        <h2 className="font-extrabold text-[24px] text-white leading-[30px]">
           Welcome to GTA 6
         </h2>
 
@@ -58,15 +58,16 @@ const NavBar = () => {
           />
         </button>
       </div>
+
       {/* Dropdown Menu for Mobile */}
       {menuOpen && (
-        <div className=" bg-[gray] bg-opacity-70">
+        <div className="bg-[gray] bg-opacity-70">
           <div className="flex flex-col items-center mx-2">
-            <ul className="flex flex-col text-center items-center space-y-4 mt-10 pb-10 ">
+            <ul className="flex flex-col text-center items-center space-y-4 mt-10 pb-10">
               <li>
                 Contract address
                 <div
-                  className="hover:bg-black flex items-center text-white bg-[#320e33] rounded-lg py-2 px-10 sm:p-4 font-medium cursor-pointer"
+                  className="hover:bg-black flex text-[12px] sm:text-[14px] items-center text-white bg-[#320e33] rounded-lg py-2 px-10 sm:p-4 font-medium cursor-pointer"
                   onClick={handleCopy}
                 >
                   <div>{address}</div>
